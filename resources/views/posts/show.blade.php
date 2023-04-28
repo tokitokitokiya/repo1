@@ -17,6 +17,8 @@
                 <p>{{ $mise->body }}</p>    
             </div>
         </div>
+        
+</form>
         <div class="footer">
             <a href="/">戻る</a>
         </div>
