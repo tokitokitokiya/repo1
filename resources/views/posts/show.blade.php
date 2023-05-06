@@ -17,8 +17,8 @@
                 <p>{{ $mise->body }}</p>    
             </div>
         </div>
-        
 </form>
+<div class="edit"><a href="/posts/{{$mise->id}}/edit">edit</a></div>
         <div class="footer">
             <a href="/">戻る</a>
         </div>
