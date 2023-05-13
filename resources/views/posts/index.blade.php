@@ -14,6 +14,7 @@
                     <h2 class='title'>
                         <a href="/posts/{{ $i->id }}">{{ $i->title }}</a>
                     </h2>
+                    <a href="">{{ $i->category->name }}</a>
                     <p class='body'>{{ $i->body }}</p>
                     <form action="/posts/{{ $i->id }}" id="form_{{ $i->id }}" method="post">
                         @csrf
