@@ -15,6 +15,7 @@
             <div class="content__post">
                 <h3>本文</h3>
                 <p>{{ $mise->body }}</p>    
+                <a href="">{{ $mise->category->name }}</a>
             </div>
         </div>
 </form>
